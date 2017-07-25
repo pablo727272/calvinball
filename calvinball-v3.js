@@ -53,9 +53,6 @@
           score = score * last_play;
         else playerOneScore = score;
 
-        // console.log(playerOne);  simple way to display score
-
-        // var playerOneScore = (193 + 50) - (77) * (2);  the feeble by-hand way
 
         //Player Two
         var score = 394;
@@ -96,9 +93,6 @@
           score = score * last_play;
         else playerTwoScore = score;
 
-        // console.log(playerTwo);  simple way to display score
-
-        // var playerTwoScore = (394 + 50 + 395) / (2);  the feeble by-hand way
 
         //Player Three
         var score = "f";
@@ -139,11 +133,8 @@
           score = score * last_play;
         else playerThreeScore = score;
 
-        // console.log(playerThree);  simple way to display score
-
-        // var playerThreeScore = (500 - 300) * (3) * (1.5);  the feeble by-hand way
 
         // display all players' high scores
-        console.log(`Player One's Score: ${playerOneScore}`);
-        console.log(`Player Two's Score: ${playerTwoScore}`);
-        console.log(`Player Three's Score: ${playerThreeScore}`);
+        console.log(`Player One's Total Score: ${playerOneScore}`);
+        console.log(`Player Two's Total Score: ${playerTwoScore}`);
+        console.log(`Player Three's Total Score: ${playerThreeScore}`);
